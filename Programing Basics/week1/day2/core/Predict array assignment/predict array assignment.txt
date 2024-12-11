@@ -4,7 +4,7 @@ console.log(contactInfo);
 
 
 var : contactinfo
-values: Paula , Smith ,1234 Main Street , St. Louis , MO , 12345 
+values: ["Paula","Smith","1234 Main Street","St. Louis","MO , 12345"] 
 Code Snippet 1 result= ['Paula', 'Smith', '1234 Main Street', 'St. Louis', 'MO', 12345]
  
 
@@ -16,7 +16,7 @@ frozen.push("hashbrowns");
 console.log(frozen);
 
 var :produce    /  frozen
-values:apples,oranges / broccoli , ice cream, hashbrowns 
+values:["apples","oranges"] / ["broccoli" , "ice cream", "hashbrowns"] 
 Code Snippet 2 result =
  ['broccoli', 'ice cream', 'hashbrowns']
 
@@ -29,7 +29,7 @@ console.log(movieLibrary);
 
 
 var : movieLibrary
-values :Bambi , Beetlejuice , Toy Story , Zorro  
+values :["Bambi" , "Beetlejuice" , "Toy Story" , "Zorro"]  
 
 Code Snippet 3 result = ['Bambi', 'Beetlejuice', 'Toy Story', 'Zorro']
 
