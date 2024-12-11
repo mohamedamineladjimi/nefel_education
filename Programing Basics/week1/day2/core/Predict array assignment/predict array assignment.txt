@@ -1,0 +1,36 @@
+Code Snippet 1 : 
+var contactInfo = ["Paula", "Smith", "1234 Main Street", "St. Louis", "MO", 12345];
+console.log(contactInfo);
+
+
+var : contactinfo
+values: Paula , Smith ,1234 Main Street , St. Louis , MO , 12345 
+Code Snippet 1 result= ['Paula', 'Smith', '1234 Main Street', 'St. Louis', 'MO', 12345]
+ 
+
+
+ Code Snippet 2 :
+ var produce = ["apples", "oranges"];
+var frozen = ["broccoli", "ice cream"];
+frozen.push("hashbrowns");
+console.log(frozen);
+
+var :produce    /  frozen
+values:apples,oranges / broccoli , ice cream, hashbrowns 
+Code Snippet 2 result =
+ ['broccoli', 'ice cream', 'hashbrowns']
+
+
+Code Snippet 3 :
+var movieLibrary = ["Bambi", "E.T.", "Toy Story"];
+movieLibrary.push("Zorro");
+movieLibrary[1] = "Beetlejuice";
+console.log(movieLibrary);
+
+
+var : movieLibrary
+values :Bambi , Beetlejuice , Toy Story , Zorro  
+
+Code Snippet 3 result = ['Bambi', 'Beetlejuice', 'Toy Story', 'Zorro']
+
+
