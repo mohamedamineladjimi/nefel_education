@@ -1,0 +1,43 @@
+code snipet 1:      
+
+ var  |  value
+
+
+code snipet 2:
+var    |  value 
+result   hello()
+
+code snipet3:
+var     |  value
+result     numplus(3)
+
+code snipet4: 
+var    |  value
+ num	 15
+result	 logAndReturn(10)
+
+code snipet5:
+var     | value 
+num	   15
+result	   timestwo(10)
+
+code snipet6:
+var    |   value
+y	  num*2 
+result 	 timesTwoAgain(3) + (timeTwoAgain(5)
+code snipet 7:
+var    | value 
+Code snipet 8:
+var    | value 
+code snipet 9
+var    | value 
+sum	num1+num2
+result	sumNums(2,3)+SumNums(3,5)
+code snipet10:
+var    | value 
+sum     num1+num2
+result  sumNums(2,3) + sumNums(3,sumNums(2,1)) + sumNums(2,1),sumNums(2,3)
+
+
+
+
