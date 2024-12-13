@@ -1,7 +1,12 @@
-function greet(anikin) {
-    if (anikin == "anikin") {
-        console.log("good day , partner!");
+//part 1
+
+function greet(x) {
+    if ( x == "anikin") {
+        console.log("good day ,"+x);
         
-    greet("");
     }
+}
+greet("anikin") 
+ 
+
 
