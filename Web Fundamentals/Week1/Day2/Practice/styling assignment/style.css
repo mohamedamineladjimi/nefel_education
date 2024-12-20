@@ -1,0 +1,22 @@
+    h1{ font-size:20;
+    background-color: black;
+    }
+    h2{ font-size:30px;px;
+        color:white;
+        background-color: rebeccapurple;
+        margin-top: -1% ;
+        text-align: center;
+    
+    }
+    h3{
+        text-align:right;
+        background-color: cyan;
+        font-size: x-large;
+        text-decoration: underline;
+         
+    }
+    *{
+        font-family: sans-serif;
+    }
+
+
