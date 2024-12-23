@@ -1,0 +1,27 @@
+
+#btn-1{
+    border-radius: 50px;
+    border: solid #00d1b2;
+    width: 150px;
+    height: 35px;
+    color:#00d1b2 ;
+}
+#btn-2{
+    border-radius: 50%;
+    color: white;
+    background-color: #00d1b2;
+    border: none;
+    width: 35px;
+    height: 35px;
+    margin-top: 10px;
+    
+}
+#btn-3{
+    background-color: #2878c8;
+    color: white;
+    box-shadow:  3px 3px black;
+    width: 150px;
+    height: 35px;
+    margin-top: 10px;
+
+}
