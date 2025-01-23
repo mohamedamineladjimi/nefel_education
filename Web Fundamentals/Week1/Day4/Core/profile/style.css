@@ -1,0 +1,222 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.profile{
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+background-color: #000;
+color: #fff;
+display: flex;
+justify-content: center; /* Center horizontally */
+padding: 10px;
+}
+
+.navbar nav {
+display: flex;
+gap: 10px;
+}
+
+.navbar a {
+color: #fff;
+text-decoration: none;
+padding: 5px 10px;
+}
+
+.navbar a:hover {
+background-color: #444;
+border-radius: 5px;
+}
+.navbar .signout{
+    margin-left: 100px;
+    
+}
+.signout{
+    background-color:#00a7cf ;
+}
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 20px;
+}
+
+.profile-card {
+    
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin-bottom: 10px;
+}
+
+.profile-card h2 {
+    margin: 10px 0 5px;
+    font-size: 20px;
+}
+
+.profile-card p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.profile-card a {
+    
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.box h3 {
+    margin-top: 0;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.list-item:last-child {
+    border-bottom: none;
+}
+
+.list-item span {
+    font-size: 14px;
+}
+
+.icon-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.icon-button img {
+    width: 20px;
+    height: 20px;
+}
+
+.view-more {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.view-more a {
+    
+    text-decoration: none;
+}
+
+.view-more a:hover {
+    text-decoration: underline;
+}
+
+.education {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.education h3 {
+    margin-top: 0;
+    font-size: 16px;
+}
+.profile-card-header {
+    background-color: #00a7cf;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.profile-card-header .avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-top: 90px;
+}
+
+
+.profile-card-body {
+    padding: 20px;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.location {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.location img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.description {
+    font-size: 14px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.edit-profile {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.edit-profile img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+
+
+.edit-profile a:hover {
+    text-decoration: underline;
+}
