@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.profile-card {
+    width: 350px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+
+.profile-card-header {
+    background-color: #00a7cf;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.profile-card-header img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.profile-card-body {
+    padding: 20px;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.location {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.location img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.description {
+    font-size: 14px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.edit-profile {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.edit-profile img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.edit-profile a {
+    text-decoration: none;
+    color: #00a7cf;
+}
+
+.edit-profile a:hover {
+    text-decoration: underline;
+}
