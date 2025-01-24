@@ -3,6 +3,10 @@
     padding: 0;
     font-family: sans-serif;
 }
+.container{
+    display:flex;
+
+}
 .topbar{
     background-color: #CCCCCC;
     display: flex;
@@ -10,7 +14,7 @@
     align-items: center;
     padding: 10px;
     width: 800px;
-    margin-left: 200px;
+    margin-left: 350px;
     
 }
 .box1{
@@ -43,12 +47,13 @@
     justify-content:space-around;
     align-items: center;
     float: right;
-    vertical-align: top;
+
 }
 #def{
     background-color: green;
     color: black;
     padding: 5px;
+    justify-content: space-evenly;
 }
 
 
@@ -60,4 +65,6 @@
     height: 300px;
     justify-content: center;
     align-items: center;
+    float: left;
+    position: ;
 }
