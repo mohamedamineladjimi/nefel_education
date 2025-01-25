@@ -3,10 +3,7 @@
     padding: 0;
     font-family: sans-serif;
 }
-.container{
-    display:flex;
 
-}
 .topbar{
     background-color: #CCCCCC;
     display: flex;
@@ -18,53 +15,80 @@
     
 }
 .box1{
-    display: flex;
+    display: inline-block;
     margin: 60px;
-    border: solid 2px;
+    border: solid 4px;
     width: 500px;
     height: 300px;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+
+    
+}
+h2{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.p2{
+    margin: 20px;
+    font-family: sans-serif;
+
+}
+p{
+    margin-left: 15px;
+}
+.paragraph{
+    margin-left: 150px;
 }
 #like{
+    font-weight: bold;
     background-color: yellow;
     color: black;
-    padding: 6px;
-    float: left;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 40px;
+    margin-top: 80px;
+    margin-left: 80px;
+    box-shadow: 2px 2px;
 }
 #log{
     background-color: blue;
     color:white;
     padding: 5px;
 }
-
 .box2{
-    display: flex;
+    display:inline-block;
     margin: 60px;
-    border: solid 2px;
-    width: 500px;
-    height: 300px;
-    justify-content:space-around;
-    align-items: center;
-    float: right;
-
-}
-#def{
-    background-color: green;
-    color: black;
-    padding: 5px;
+    border: solid 4px;
     justify-content: space-evenly;
+    overflow: hidden;
+    padding: 6%;
+    font-weight: bold;
+
+    
 }
-
-
+.defined{
+    font-size: 30px;
+}
+#Add{
+    background-color: #93C47D;
+    padding: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-weight: bold;
+    box-shadow: 2px 2px;
+    width: 70%;
+}
 .box3{
-    display: flex;
+    display: inline-block;
     margin: 60px;
-    border: solid 2px;
+    border: solid 4px;
     width: 500px;
     height: 300px;
-    justify-content: center;
-    align-items: center;
-    float: left;
-    position: ;
+    justify-content: space-evenly;
+    overflow: hidden;
+
+    
 }
