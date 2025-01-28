@@ -12,11 +12,11 @@
     justify-content: space-between
 }
 .head{
-    display: inline-flex;
-    margin: 20px;
-    align-items: center;
-
-}
+        display: inline-flex;
+        margin: 20px;
+        align-items: center;
+    
+    }
 p{
     margin: 50px;
     display: end;

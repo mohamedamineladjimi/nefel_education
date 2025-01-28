@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+}
+.layout {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+.sidebar {
+    width: 250px;
+    background-color: #f9f9f9;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    margin-right: 20px;
+    height: fit-content;
+}
+.sidebar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.sidebar a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.sidebar a:hover {
+    text-decoration: underline;
+}
+.sidebar p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.feed-section {
+    flex: 1; 
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+.feed-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #333;
+}
+.feed {
+    padding: 10px;
+}
+.post {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 2px solid black;
+}
+.like-button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #ffeb3b;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
