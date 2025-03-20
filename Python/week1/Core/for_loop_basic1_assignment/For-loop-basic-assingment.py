@@ -9,8 +9,10 @@ for number in range(0,151):
            print("coding")
         if i %10==0:
            print("Coding Dojo")
-        sum=0
-        for i in range (0,500001,2):
+      sum=0
+         for i in range (0,500001,2):
             sum+=i
-              
-    
+      
+   
+
+

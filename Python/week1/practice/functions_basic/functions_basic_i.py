@@ -2,7 +2,7 @@
 def number_of_food_groups():
     return 5
 print(number_of_food_groups())
-#the output is 5 
+#the output is undefined 
 
 
 #2
@@ -47,7 +47,7 @@ print(add(1,2) + add(2,3))
 def concatenate(b,c):
     return str(b)+str(c)
 print(concatenate(2,5))
-#the output is 7
+#the output is "25"
 
 
 #8
@@ -60,7 +60,7 @@ def number_of_oceans_or_fingers_or_continents():
         return 10
     return 7
 print(number_of_oceans_or_fingers_or_continents())
-#the output is 10 , 7
+#the output is 100 , 10
 
 
 #9
@@ -71,8 +71,11 @@ def number_of_days_in_a_week_silicon_or_triangle_sides(b,c):
         return 14
     return 3
 print(number_of_days_in_a_week_silicon_or_triangle_sides(2,3))
+#the output is 7
 print(number_of_days_in_a_week_silicon_or_triangle_sides(5,3))
+#the output is 14
 print(number_of_days_in_a_week_silicon_or_triangle_sides(2,3) + number_of_days_in_a_week_silicon_or_triangle_sides(5,3))
+
 
 
 #10
