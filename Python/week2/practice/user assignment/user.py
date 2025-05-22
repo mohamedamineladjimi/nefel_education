@@ -27,8 +27,3 @@ class User:
             self.gold_card_points -= amount
         else:
             print("Not enough points to spend.")
-user1 = User("Jane", "Doe", "jane.doe@example.com", 30)
-user1.display_info()
-user1.enroll()
-user1.spend_points(50)
-user1.display_info()
