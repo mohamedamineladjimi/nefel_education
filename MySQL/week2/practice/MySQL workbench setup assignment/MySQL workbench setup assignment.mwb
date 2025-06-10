@@ -1,0 +1,7 @@
+INSERT INTO names(name) values ("mohamed amine ladjimi");
+INSERT INTO names(name) values ("mayar najjar");
+INSERT INTO names(name) values ("salma guermazi");
+SELECT * FROM names;
+ 
+
+
