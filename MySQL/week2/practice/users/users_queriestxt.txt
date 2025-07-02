@@ -1,0 +1,5 @@
+insert into users (first_name , last_name , email) values ("mohamed amine" , "ladjimi" , "amineladjimi@gmail.com");
+select * from users;
+update users  set last__name = "pancake" where id =3;
+delete from users where id=2;
+
